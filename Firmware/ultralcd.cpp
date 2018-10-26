@@ -6093,7 +6093,7 @@ bool lcd_selftest()
 {
 	int _progress = 0;
 	bool _result = true;
-	// lcd_wait_for_cool_down();
+	lcd_wait_for_cool_down();
 	lcd_clear();
 	lcd_set_cursor(0, 0); lcd_puts_P(_i("Self test start  "));////MSG_SELFTEST_START c=20 r=0
 	#ifdef TMC2130
