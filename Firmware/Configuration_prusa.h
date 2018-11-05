@@ -125,7 +125,7 @@
 #define UVLO_SUPPORT
 
 // Fan check
-// #define FANCHECK
+#define FANCHECK
 
 // Safety timer
 #define SAFETYTIMER
